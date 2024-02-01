@@ -7,8 +7,6 @@ jobs:
   runs-on:ubuntu-latest
 
   steps:
-  -name: Checkout Repo
-   run: actions/checkout@v4
-
+  
   - name: Echo text
     run: 'echo "Hello, World!"'
